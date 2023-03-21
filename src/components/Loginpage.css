@@ -7,6 +7,7 @@
 {
     background: url('../images/thali.jpeg') no-repeat ;
     background-size: 100%;
+    height: 100vh;;
 }
 .logincontainer
 {

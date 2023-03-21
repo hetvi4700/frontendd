@@ -6,7 +6,7 @@ export default class Signuppage extends PureComponent {
       <div>
         
 <main className="main">
-	<div className="logincontainer">
+	<div className="signupcontainer">
 		<section className="wrapper">
 			<div className="heading">
 				<h1 className="text text-large" id='text-large'>Register your account</h1>
@@ -65,6 +65,15 @@ export default class Signuppage extends PureComponent {
 				<div>
 				<input type="submit" name="submit" className="input-submit" value="Continue" disabled/>
 				</div>
+				<div className='already'>
+				<span id='already-account'>Already have an account?</span><span>
+				<a href="/login" className="already-login">
+						
+						Login
+					</a>
+				</span>
+				</div>
+				
 				
 				
 			</div>
@@ -76,3 +85,4 @@ export default class Signuppage extends PureComponent {
     )
   }
 }
+
