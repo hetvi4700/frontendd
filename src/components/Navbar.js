@@ -8,6 +8,7 @@ import Homepage from "./Homepage";
 function Section_1_Landingpage() {
   return (
     <>
+    
       <div className="section_1">
         <img src={thali} id="thali"></img>
         <div className="nav">

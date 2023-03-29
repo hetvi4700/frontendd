@@ -7,7 +7,7 @@ import thaliimg2 from "../../images/thali4.jpeg";
 import rupee from "../../images/rupee.png";
 import Addbutton from "./Addbutton";
 export default class Tiffininfopage extends PureComponent {
-  render() {
+  render(){
     return (
       <div>
         <Navbar></Navbar>
@@ -69,9 +69,9 @@ export default class Tiffininfopage extends PureComponent {
                 <span id='price'>150</span>
               </div>
             </div>
-            <div className="menu-buttons">
+            {/*<div className="menu-buttons">
               <input type="button" value="Add" id='add-button'></input>
-            </div>
+  </div>*/}<Addbutton></Addbutton>
           </div>
         </div>
       </div>
