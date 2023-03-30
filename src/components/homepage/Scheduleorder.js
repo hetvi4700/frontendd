@@ -4,6 +4,7 @@ import ReactModal from 'react-modal';
 import './Addbutton.css';
  import rupee from "../../images/rupee.png";
 import SubmitButton from './SubmitButton';
+import './Scheduleorder.css'
 function Example() {
   const [isOpen, setIsOpen] = useState(false);
 const [selectedValue, setSelectedValue] = useState("");
@@ -25,18 +26,18 @@ const [selectedValue, setSelectedValue] = useState("");
  
   return (
     <div>
-      <button onClick={() => setIsOpen(true) } id='addbutton'>
-Order now
+      <button onClick={() => setIsOpen(true) } id='addbutton2'>
+Schedule Order
       </button>
       <ReactModal
         isOpen={isOpen}
         contentLabel="Example Modal"
-        onRequestClose={() => setIsOpen(false)} id='react-modal'
+        onRequestClose={() => setIsOpen(false)} id='react-modal1'
       >
     
         <div className='popup-heading1'>
 
-    ORDER NOW
+    SCHEDULE ORDER
   
     
     
@@ -74,7 +75,7 @@ Full meal (<span><img src={rupee} id='rupee'></img>120/-</span>)
 
 </div>
 <hr></hr>
-<div className='nom'>
+<div className='nom1'>
 <div className='number-of-meals'>
    NUMBER OF MEALS
 </div>
@@ -87,10 +88,25 @@ Full meal (<span><img src={rupee} id='rupee'></img>120/-</span>)
 
 <div>
 <hr></hr>
+<div className='from-to'>
+    <div id='from1'>
+    <span id='from'>FROM</span><input type="date" id="dateinput" name=""/>
+
+    </div>
+    <div>
+    <span id='from'>TO</span><input type="date" id="dateinput" name=""/>
+    </div>
+
+
+</div>
+<hr></hr>
+<div className='time'>
+    <span id='time-head'>TIME OD DELIVERY</span><input type="time" id="appt" name="appt"/>
+</div>
+<hr></hr>
 <div className='placeorder'>
 <button type="button" class="btn btn-primary" id='placeorder'>PLACE ORDER</button>
-
-{/*<SubmitButton onClick={handleMultiply}  price={result} ></SubmitButton>*/}
+{/*<SubmitButton onClick={handleMultiply}  price={result}></SubmitButton>*/}
 
 </div>
 

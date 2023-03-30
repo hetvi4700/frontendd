@@ -30,3 +30,9 @@
     height: 30px;
     padding-bottom: 2px;
 }
+
+#profile-dropdown
+{
+    border: none;
+    background-color: transparent;
+}

@@ -53,6 +53,7 @@ export default class Tiffininfopage extends PureComponent {
               <input type="button" value="Add" id='add-button'></input>
     </div>*/}
     <Addbutton></Addbutton>
+    
           </div>
           <div className="menudiv">
             <div className="menu-img">
