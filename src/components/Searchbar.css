@@ -25,3 +25,7 @@
     
     box-shadow: none;
 }
+
+select option:hover {
+    background-color: orange;
+}

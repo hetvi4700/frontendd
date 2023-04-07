@@ -10,54 +10,38 @@ export default class Footer extends PureComponent {
 <div class="container">  
 <div class="row text-center text-xs-center text-sm-left text-md-left">  
 <div class="col-xs-12 col-sm-4 col-md-4">  
-<h5> Quick links </h5>  
+<h5> OUR SERVICES </h5>  
   <ul class="list-unstyled quick-links">  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Get Started </a> </li>  
-              <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Videos </a> </li>  
+  <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Explore Tiffins </a> </li>  
+  <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Order online </a> </li>  
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Payment & delivery </a> </li>
+    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i></a>Enjoy the meal</li>  
 </ul>  
 </div>  
           <div class="col-xs-12 col-sm-4 col-md-4">  
-    <h5> Quick links </h5>  
+    <h5> QUICK LINKS </h5>  
     <ul class="list-unstyled quick-links">  
     <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Our Services </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Expert Team </a> </li>  
+    <li> <a href="#section_2"> <i class="fa fa-angle-double-right"> </i> About </a> </li>  
+    <li> <a href="#sticker"> <i class="fa fa-angle-double-right"> </i> Working</a> </li>
+    <li> <a href="#sticker"> <i class="fa fa-angle-double-right"> </i> FAQs </a> </li>  
+ 
     </ul>  
     </div>  
     <div class="col-xs-12 col-sm-4 col-md-4">  
-    <h5> Quick links </h5>  
+    <h5>  CONTACT </h5>  
              <ul class="list-unstyled quick-links">  
-     <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Home </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> About </a></li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> FAQ </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Get Started </a> </li>  
-    <li> <a href="#"> <i class="fa fa-angle-double-right"> </i> Contact </a> </li>  
+     <li>Jash Karangiya <a href="#"> <i class="fa fa-angle-double-right"> </i>  </a> </li>  
+    <li>Sangati Chapla <a href="#"> <i class="fa fa-angle-double-right"> </i> </a></li>  
+    <li> Hetvi Bhadani<a href="#"> <i class="fa fa-angle-double-right"> </i> </a> </li>  
+    <br></br>
+    
+    
     </ul>  
     </div>  
     </div>  
-    <div class="row">  
-    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">  
-    <ul class="list-unstyled list-inline social text-center">  
-    <li class="list-inline-item"> <a href="#"> <i class="fa fa-facebook"> </i> </a> </li>  
-             <li class="list-inline-item"> <a href="#"> <i class="fa fa-twitter"> </i> </a> </li>  
-    <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram"> </i> </a> </li>  
-    <li class="list-inline-item"> <a href="#"> <i class="fa fa-google-plus"> </i > </a> </li>  
-    <li class="list-inline-item"> <a href="#"> <i class="fa fa-envelope"> </i> </a> </li>  
-    </ul>  
-    </div>  
-    <hr/>  
-    </div>      
-    <div class="row">  
-    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">  
-   <p class="h6"> 2021 ? All right Reversed. <a class="text-green ml-2" href="#" target="_blank">              JavaTpoint </a> </p>  
-    </div>  
-    <hr/>  
-    </div>      
+       
+         
     </div>  
     </section>  
       </div>

@@ -1,5 +1,6 @@
 section {  
     padding: 60px 0;  
+    
 }  
 section .section-title {  
     text-align: center;  
@@ -8,22 +9,25 @@ section .section-title {
     text-transform: uppercase;  
 }  
 #footer {  
-    background: #ffffff;  
+    background: #FF8810;  
 }  
 #footer h5 {  
    padding-left: 10px;  
     border-left: 3px solid #eeeeee;  
     padding-bottom: 6px;  
     margin-bottom: 20px;  
-    color:#000000;  
+    color:white; 
+    font-weight: 700; 
+    letter-spacing: 1px;
 }  
 #footer a {  
-    color: #000000;  
+    color:white;  
     text-decoration: none !important;  
     background-color: transparent;  
 }  
 #footer ul.social li {  
     padding: 3px 0;  
+    color:white; 
 }  
 #footer ul.social li a i {  
     margin-right: 5px;  

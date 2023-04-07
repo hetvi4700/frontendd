@@ -10,7 +10,7 @@ import RotateImage from './Rotateimage';
 export default class Section_2_landingpage extends PureComponent {
   render() {
     return (
-      <div className='section_2'>
+      <div className='section_2' id='section_2'>
         
 
         

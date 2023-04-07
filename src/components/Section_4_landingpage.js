@@ -14,7 +14,7 @@ export default class Section_4_landingpage extends PureComponent {
             <div class="card-swipe">
               <div class="cards">
                 <div class="card-body">
-                  <h3>Review Title</h3>
+                  <h3>Trupal Patel</h3>
                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
 
 
@@ -27,7 +27,7 @@ export default class Section_4_landingpage extends PureComponent {
             <div class="card-swipe">
               <div class="cards">
                 <div class="card-body">
-                  <h3>Review Title</h3>
+                  <h3>Amit Shah</h3>
                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                 </div>
               </div>
@@ -37,7 +37,7 @@ export default class Section_4_landingpage extends PureComponent {
             <div class="card-swipe">
               <div class="cards">
                 <div class="card-body">
-                  <h3>Review Title</h3>
+                  <h3>Prachi Desai</h3>
                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
                 </div>
               </div>

@@ -6,13 +6,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar.css';
 import Cart from '../../images/cart.png'
 import User from '../../images/user.png'
+import { Dropdown } from 'react-bootstrap';
+import Drop from './Dropdown'
 
 function NavScrollExample() {
   return (
     
     <Navbar bg="light" expand="lg" className='nav-bar'>
       <Container fluid>
-        <Navbar.Brand href="#" id='navtitle'>YUMTIFFIN</Navbar.Brand>
+        <Navbar.Brand href="/home" id='navtitle'>YUMTIFFIN</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className='navlinks'>
           <Nav
@@ -21,14 +23,15 @@ function NavScrollExample() {
             navbarScroll 
           >
             
-            <Nav.Link id='navl' href="#action2"><img src={Cart} id='navicon'></img></Nav.Link>
+            <Nav.Link id='navl' href="/cart"><img src={Cart} id='navicon'></img></Nav.Link>
            
            
   
 
-              <Nav.Link id='navl' href="#action2"><img src={User} id='navicon'></img></Nav.Link>
+            
+              
    
-          
+          <Drop/>
             
               
           </Nav>

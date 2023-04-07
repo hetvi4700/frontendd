@@ -46,7 +46,7 @@ export default class Tiffininfopage extends PureComponent {
               </div>
               <div className="price">
                 
-                <span><img src={rupee} id='rupee'></img></span>
+                <span id='rid'><img src={rupee} id='rupee'></img></span>
                 <span id='price'>120</span>
               </div>
             </div>
