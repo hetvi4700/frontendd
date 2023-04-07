@@ -6,6 +6,8 @@ import Addbutton from './Addbutton'
  import rupee from "../../images/rupee.png";
 import SubmitButton from './SubmitButton';
 import Scheduleorder from './Scheduleorder';
+
+
 function Example() {
   const [isOpen, setIsOpen] = useState(false);
 const [selectedValue, setSelectedValue] = useState("");
@@ -30,6 +32,7 @@ const [selectedValue, setSelectedValue] = useState("");
       <button onClick={() => setIsOpen(true) } id='addbutton1'>
         Add
       </button>
+
       <ReactModal
         isOpen={isOpen}
         contentLabel="Example Modal"
@@ -40,6 +43,7 @@ const [selectedValue, setSelectedValue] = useState("");
         <Scheduleorder></Scheduleorder>
         
       </ReactModal>
+
     </div>
   );
 }

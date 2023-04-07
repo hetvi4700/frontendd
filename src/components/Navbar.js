@@ -18,14 +18,14 @@ function Section_1_Landingpage() {
           
           <div className="nav-links">
           
-            <a href="/login" target="_blank">
+            <a href="/login" >
               
               LOGIN
               
               
               
             </a>
-            <a href="/signup" target="_blank">
+            <a href="/signup" >
               SIGNUP
             </a>
             

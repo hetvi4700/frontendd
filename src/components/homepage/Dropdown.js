@@ -22,8 +22,8 @@ export default function App() {
 
               
 
-              <div className="d-grid">
-                <button className="btn btn-secondary">
+              <div className="d-grid" id='logbut'>
+                <button className="btn btn-secondary" id='logout'>
                   <small>Logout</small>
                 </button>
               </div>
